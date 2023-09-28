@@ -1,0 +1,399 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+/* Стилі для хедера */
+.page-header {
+    color: #4d5ae5;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Стилі для футера */
+.page-footer {
+    background-color: #2e2f42;
+}
+
+.page-navi {
+    display: flex;
+    align-items: center;
+}
+
+/* Стилі для логотипу в хедері і футері */
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #4d5ae5;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    margin-right: 76px;
+}
+
+/* Колір для частини логотипу */
+.header-logo-color {
+    color: #2e2f42;
+}
+
+.header-navi-list {
+    display: flex;
+    gap: 40px;
+
+}
+
+/* .header-navigation-link {
+    margin-right: 40px;
+} */
+
+/* Стилі для посилань в хедері */
+.header-link-fir {
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
+}
+
+/* Стилі для посилань при наведенні та фокусу */
+.header-link-fir:hover,
+.header-link-fir:focus {
+    color: #404bbf;
+}
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+/* Стилі для списків */
+ul {
+    list-style-type: none;
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Стилі для посилань */
+a {
+    text-decoration: none;
+}
+
+/* Стилі для адреси в хедері */
+.header-address {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.header-address-list {
+    display: flex;
+    gap: 40px;
+}
+
+/* Стилі для поштових адрес у хедері */
+.header-address-mail {
+    font-size: 16px;
+    color: #434455;
+    font-style: normal;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    /* 2dob */
+}
+
+/* Стилі для адреси при наведенні */
+.header-address-mail:hover {
+    color: #404bbf;
+}
+
+/* Стилі для адреси при фокусі */
+.header-address-mail:focus {
+    color: #404bbf;
+}
+
+/* Стилі для першої секції */
+.section-one {
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+
+/* Стилі для заголовка першої секції */
+.page-title {
+    color: #fff;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin: 0 auto;
+    max-width: 496px;
+    margin-bottom: 48px;
+}
+
+/* Стилі для кнопки в першій секції */
+.title-button {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    background-color: #4d5ae5;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    min-width: 169px;
+    height: 56px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Стилі для кнопки при наведенні та фокусу */
+.title-button:hover,
+.title-button:focus {
+    background-color: #404bbf;
+}
+
+.section-two {
+    padding: 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Стилі для заголовків користувальницьких переваг і портфоліо */
+.section-benefitions {
+    color: #2e2f42;
+        /* text-align: center; */
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        text-transform: capitalize;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+}
+
+.section-beneros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+}
+
+.section-beneros-list {
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+/* Стилі для заголовків користувальницьких портфоліо */
+.section-port {
+    color: #2e2f42;
+    /* text-align: center; */
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+}
+
+/* Стилі для тексту користувальницьких переваг та тексту портфоліо */
+.benefits-text,
+.port-text {
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    /* 3dob */
+}
+
+/* Стилі для третьої секції (команда) */
+.section-three {
+    background-color: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* Стилі для заголовка команди */
+.section-team {
+    color: #2e2f42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+}
+
+.team-images {
+    display: flex;
+    gap: 24px;
+}
+
+.team-img-odi {
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    background-color: #fff;
+}
+
+/* Стилі для зображень команди */
+.team-images-ver {
+    background-color: #fff;
+}
+
+.team-container {
+    padding: 32px 0;
+}
+
+/* Стилі для імені та посади у команді */
+.team-image-one {
+    color: #2e2f42;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    text-align: center;
+    /* 4dob */
+}
+
+/* Стилі для четвертої секції (портфоліо) */
+.section-four {
+    background-color: #fff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* Стилі для заголовка портфоліо */
+.section-port {
+    color: #2e2f42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+}
+
+.port-images {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
+}
+
+/* Стилі для зображень портфоліо */
+.port-images,
+.port-images-ver {
+    background-color: #fff;
+}
+
+.port-images-folio {
+    flex-basis: calc((100% - 48px) / 3);
+}
+
+/* Стилі для імені та типу робіт у портфоліо */
+.port-image-one {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+
+.container-portfolio-image {
+    padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+}
+
+/* Стилі для футера */
+.page-footer {
+    color: #2e2f42;
+    padding: 100px 0;
+    height: 312px;
+    flex-shrink: 0;
+    /* margin-top: 120px; */
+}
+
+.page-footer .container {
+}
+
+/* Стилі для тексту футера */
+.footer-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+    width: 264px;
+    /* 5dob */
+}
+
+.page-footer-container {
+    background-color: #2e2f42;
+}
+
+/* Колір для частини логотипу у футері */
+.footer-logo {
+    color: #4d5ae5;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+        text-transform: uppercase;
+        font-size: 18px;
+        color: #4d5ae5;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+    margin-bottom: 16px;
+}
+
+/* Колір для частини логотипу у футері при наведенні */
+.footer-logo-color {
+    color: #f4f4fd;
+    margin-bottom: 16px;
+}
